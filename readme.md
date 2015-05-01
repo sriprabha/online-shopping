@@ -25,6 +25,6 @@
 9. Set the width and height for each image to be 100% to occupy the available column width and to not display a scroll bar.
 10. Added a product directive to load the template for each product.
 11. Used Chrome's PageSpeed Analyser to analyze load time and results of the changes.
-
+12. Screenshots are added under the screenshot folder
 The app is configured to run with npm. Running npm start in the online-shopping directory should load the app.
 
