@@ -5,11 +5,11 @@
 * Browsers: Chrome (Version 40.0.2214.91), Firefox (35.0)
 * Responsiveness test on: http://mattkersley.com/responsive/
 
-
 ## Frameworks used: 
 * AngularJS, Angular UI Bootstrap components and Bootstrap CSS framework.
 * AngularJS provided the support for a templating tool. 
 * Bootstrap CSS framework provided the support to make the webpage responsive and view easily on a mobile device, by laying out the webpage in the form of a grid.
+* Node JS to serve the data
 
 
 ## Optimizations/Modifications:
