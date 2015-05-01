@@ -9,12 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body ng-controller="productCtrl">
-  	<div class="text-center">
-  	  <button ng-show="!items.length" class="btn btn-lg btn-warning middle">
-  			<span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Loading...
-  		</button>
-  	</div>
-  	<div id="container" class="container" ng-show="items.length">
+  	<loading ng-show="!items.length"></loading>
+  	<div class="container" ng-show="items.length">
   		<div class="row text-center">
     			<h1>Welcome to Touch of Modern</h1>
     			<h4>Live beyond expectations</h4>
@@ -23,15 +19,16 @@
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <a class="close" ng-click="delete(item)">×</a>
           <a href="{{item.url}}" popover-placement="bottom" popover-title="{{item.title}}" popover="{{item.tagline}}" popover-trigger="mouseenter">
-            <img src="{{item.photos.medium_half}}">
+            <img ng-src="{{item.photos.medium_half}}">
           </a>
         </div>
       </div>
     </div>
     
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/loading.js"></script>
     <script src="js/productCtrl.js"></script>
   </body>
 </html>
