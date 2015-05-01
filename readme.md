@@ -1,11 +1,21 @@
-Front-End Challenge
-====================
+Webpage Modifications
+==================
 
-This challenge is designed to let you show your thought process and approach to some basic tasks of front-end engineering. There are many ways to perform these tasks and we are not looking for a particular "right way". However, we do appreciate some basic principles of software design including performance, maintainability, usability, etc... 
+Frameworks used: AngularJS, Angular UI Bootstrap, Bootstrap CSS framework
+AngularJS provided the support for a templating tool to update the products dynamically. 
+Bootstrap CSS framework provided the support to make the webpage responsive and view easily on mobile device, by laying out the webpage in the form of a grid.
 
-Along with these tasks, we welcome any commentary or feedback. It can either be included in comments in your code or as a narrative. You are welcome to use any external libraries that you wish. Your deliverable can either be a zip, a repo on your git account, or hosted somewhere. 
 
-Here you are given and HTML, JSON, javascript and css file that pill data from the JSON file and display it for the user to see. Start by familiarizing yourself with the code and once you are ready, here is a list of tasks we will need you to complete:
+Optimizations/Modifications:
+Moved the script tags to bottom of the body section 
+Used minified CSS files to reduce load time
+Added a bootstrap styled loading indicator that is displayed when the page is being rendered.
+Added a custom css class to override bootstrap css for anchor tags.
+The text on the page is center aligned.
+An x icon from bootstrap is added to each image that removes it from the view when clicked.
+An overlay from angular-ui-bootstrap components is used to display the description on hover.
+
+
 
 
 * Familiarize yourself and optimize and improve the code and layout anywhere you see fit. 
