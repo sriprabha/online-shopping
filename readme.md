@@ -21,7 +21,7 @@
 5. The text on the page is center aligned.
 6. A bootstrap styled x icon is added to each image that removes it from the view when clicked.
 7. A bootstrap styled overlay from angular-ui-bootstrap components is used to display the description on hover.
-8. Replaced the div for page titles with <h1> and <h4> tags. The header tags represent the headings of a page semantically well. They are also read by a screen reader or any Assistive Technology easily.
+8. Replaced the div for page titles with header tags. The header tags represent the headings of a page semantically well. They are also read by a screen reader or any Assistive Technology easily.
 9. Set the width and height for each image to be 100% to occupy the available column width and to not display a scroll bar.
 10. Added a product directive to load the template for each product.
 11. Used Chrome's PageSpeed Analyser to analyze load time and results of the changes.
